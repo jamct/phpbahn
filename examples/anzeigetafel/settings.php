@@ -1,0 +1,4 @@
+<?
+const SETTING_APIKEY = "YOUR_APIKEY";
+const SETTING_BAHNHOF = "Hannover";
+const SETTING_STOPS = 3;
