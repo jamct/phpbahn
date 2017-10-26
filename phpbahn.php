@@ -151,7 +151,7 @@ class phpbahn {
             if(isset($fahrt['dp'])){
                 
                  if(isset($fahrt['dp']['@attributes']['l'])){
-                    $fahrt['ankunft']['line'] = $fahrt['dp']['@attributes']['l'];
+                    $fahrt['abfahrt']['line'] = $fahrt['dp']['@attributes']['l'];
                 }
                                 
                 $fahrt['abfahrt']['zeitGeplant'] = $fahrt['dp']['@attributes']['pt'];
